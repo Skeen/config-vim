@@ -53,6 +53,7 @@ set number
 call plug#begin('~/.vim/plugged')
 
 Plug 'leafgarland/typescript-vim'
+Plug 'kylef/apiblueprint.vim'
 
 call plug#end()
 
