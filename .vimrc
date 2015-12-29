@@ -49,6 +49,15 @@ set tw=500
 " Show line numbers
 set number
 
+" Use % to jump to parenthesis
+noremap % %
+
+" Don't remember position in gitcommit files
+autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
+" Use the system-wide clipboard
+set clipboard=unnamedplus
+
 " Handle plugins
 call plug#begin('~/.vim/plugged')
 
@@ -57,5 +66,3 @@ Plug 'kylef/apiblueprint.vim'
 
 call plug#end()
 
-" Use % to jump to parenthesis
-noremap % %
