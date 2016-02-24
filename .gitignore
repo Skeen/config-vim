@@ -1,5 +1,6 @@
 # Ignore everything
 *
+.vim/.netrwhist
 
 # Except these
 !.vimrc
