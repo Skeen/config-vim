@@ -64,6 +64,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'leafgarland/typescript-vim'
 Plug 'kylef/apiblueprint.vim'
 Plug 'sirtaj/vim-openscad'
+Plug 'jpalardy/vim-slime'
 
 call plug#end()
 
