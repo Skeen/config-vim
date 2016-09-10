@@ -1,6 +1,9 @@
 " Sets how many lines of history VIM has to remember
 set history=700
 
+" Set bash as default shell
+set shell=/bin/bash
+
 " Enable filetype plugins
 syntax on
 filetype on
@@ -77,6 +80,9 @@ Plug 'leafgarland/typescript-vim'
 Plug 'kylef/apiblueprint.vim'
 Plug 'sirtaj/vim-openscad'
 Plug 'jpalardy/vim-slime'
+Plug 'FredKSchott/CoVim'
+let CoVim_default_name = "skeen"
+let CoVim_default_port = "3333"  
 
 call plug#end()
 
