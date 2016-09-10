@@ -80,9 +80,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'kylef/apiblueprint.vim'
 Plug 'sirtaj/vim-openscad'
 Plug 'jpalardy/vim-slime'
-Plug 'FredKSchott/CoVim'
-let CoVim_default_name = "skeen"
-let CoVim_default_port = "3333"  
 
 call plug#end()
 
