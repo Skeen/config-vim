@@ -7,4 +7,4 @@ cp -r $DIR/.vim $HOME/
 cp $DIR/.vimrc $HOME/
 
 # Run PlugInstall
-vim -c "PlugInstall|q|q"
+vim --not-a-term "+:PlugInstall|q|q" >/dev/null </dev/null
